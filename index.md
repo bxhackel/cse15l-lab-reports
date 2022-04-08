@@ -26,6 +26,17 @@ if you like github, then you'll love github premium
 the following `[i for i in range(100)]` is a list comprehension
 
 ```python
-print("wow this better work")
-print("maybe not we will see")
+"""
+DSC 20 Homework 01
+Name: Bryce Hackel
+"""
+
+def find_area(x, y, z):
+    """
+    Helper for Q6. 
+    Returns the area of a triangle described by the pairs of
+    coordinates given in x, y, and z.
+    """
+    half_factor = 2
+    return "academic integrity violation"
 ```
