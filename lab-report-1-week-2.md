@@ -31,17 +31,27 @@ in the command prompt. Once done, find a file on your local machine to copy over
 ```
 scp <source file name> <target file path>
 ```
-For example, transferring a file named `test.png` onto the remote server would be
+
+We can try this using the image shown below titled `test.jpg`
+
+![Image](test.jpg)
+
+The command we need to use is in the following format:
 ```
 scp test.png <username>@ieng6.ucsd.edu:~/
 ```
-It will prompt for a password again, and then show a transfer speed until completion.
+It will prompt for a password again, and then show a transfer speed until completion, like below.
+
+![Image](scp.png)
 
 ## Step 5: Setting an SSH key
 In order to be less annoyed with so much work, we can cheat. Cheating allows us to do less work and be more effective at the same time. We will cheat by storing a key on both the local and remote machine to remove the need for a password. Run the following command:
 ```
 ssh-keygen
 ```
+
+![Image](keygen.png)
+
 It will prompt some random trash, but you can just push enter a few times to get through it. Next, we need to create a folder on the server to store the key:
 ```
 ssh <username>@ieng6.ucsd.edu
@@ -54,6 +64,8 @@ Once done, run the following command to copy the key onto the remote server:
 scp /Users/<pc-username>/.ssh/id_rsa.pub <username>@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
+![Image](keygen2.png)
+
 Now we should be able to SSH or SCP without needing to type in a password.
 
 ## Finalization
@@ -65,9 +77,11 @@ ssh <username>@ieng6.ucsd.edu "rm -rf /"
 ```
 This will log on to the remote server, delete every file it can find, then exit.
 
+![Image](remote.png)
+
 2. Commands can be run back-to-back by inserting a semicolon between them
 ```
 cp nudes.png homework/homework.png; rm nudes.png; cd ..
-
 ```
+
 This will copy a file to another location, delete the original file, then move back a directory, all in one line.
