@@ -46,7 +46,7 @@ It caused the following output, which was not intended
 
 The process to resolve this was simple. We needed to check if there is an exclamation point before the image brackets. See below
 
-![Image](break3test.png)
+![Image](break3fix.png)
 
 Additionally, since this would cause an error when checking the first character, that was checked for. A simple fix for a simple problem. Very Nice.
 
