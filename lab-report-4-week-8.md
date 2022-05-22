@@ -9,6 +9,7 @@ For this week, we will be rigorously testing the MarkdownParse.java code to look
 First up is this small bit of markdown. The valid links in this case are "`google.com", "google.com", "ucsd.edu".
 
 We add this as a test to the code:
+
 ![Image](mdcode1.png)
 
 Running this test on our code gives the following result.
@@ -31,6 +32,7 @@ The reason for catching the extra first link comes down to the backticks capturi
 Next is this set of markdown links. This tests nested links and paired parenthesis or brackets within links. The expected links are "a.com", "a.com(())", "example.com".
 
 We add this as a test to the code:
+
 ![Image](mdcode2.png)
 
 Running this test on our code gives the following result.
@@ -52,6 +54,7 @@ I think a small code change of less than 10 lines could fix this problem, and po
 Finally, the last set is shown above. This one attempts to cover cases involving new lines between links. The expected output is the following one link: "https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"
 
 We add this as a test to the code:
+
 ![Image](mdcode3.png)
 
 Running this test on our code gives the following result.
