@@ -6,7 +6,11 @@ if you like github, then you'll love github premium
 
 [Lab Report 1](lab-report-1-week-2.html)
 
-[Google](https://google.com)
+[Lab Report 2](lab-report-2-week-4.html)
+
+[Lab Report 3](lab-report-3-week-6.html)
+
+[Lab Report 4](lab-report-4-week-8.html)
 
 ![Image](https://media.istockphoto.com/photos/siberian-husky-in-winter-snow-picture-id1183939961?k=20&m=1183939961&s=612x612&w=0&h=FUkfljdDAxBPZX1yMiX3ioGbySShthkY85IuqJ0hxTg=)
 
