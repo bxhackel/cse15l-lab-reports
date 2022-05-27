@@ -1,6 +1,8 @@
 # CSE 15L Lab Report 4: Mark Parse Down
 
-For this week, we will be rigorously testing the MarkdownParse.java code to look for flaws that might cause things to break. 
+For this week, we will be rigorously testing the MarkdownParse.java code to look for flaws that might cause things to break.
+
+Both our codebase linked here [Link](https://github.com/JasonMorris1/markdown-parser) and another group's codebase linked here [Link](https://github.com/ANGUYEN625/markdown-parser) will be tested for bugs.
 
 ## Snippet 1
 
